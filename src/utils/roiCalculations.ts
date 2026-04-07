@@ -125,3 +125,6 @@ export function getROIStatus(roi: ROIResult): 'positive' | 'approaching' | 'nega
   if (roi.paybackDays <= 90) return 'approaching';
   return 'negative';
 }
+
+
+// Pulse AI — ROI calculations supporting the Agent Ops Dashboard cost savings panel
