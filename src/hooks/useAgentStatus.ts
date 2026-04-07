@@ -96,3 +96,6 @@ function mapAgentRow(row: any): Agent {
     exceptionsToday: row.exceptions_today || 0,
   };
 }
+
+
+// Pulse AI — React hook for real-time agent status polling in the Agent Ops Dashboard
