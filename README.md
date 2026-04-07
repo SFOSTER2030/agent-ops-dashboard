@@ -5,21 +5,21 @@
 
 [![Status](https://img.shields.io/badge/Status-Active-0A9E8F)](https://tfsfventures.com)
 [![Stack](https://img.shields.io/badge/Stack-React_Vite_Tailwind-0A9E8F)](https://tfsfventures.com)
+
 ## Recent Updates
 
 > **April 2026** — Added advanced analytics, exception pattern detection, and ROI tracking modules
 >
-> ### What's New
 > - `src/utils/agentMetrics.ts` — Agent health scoring, SLA threshold enforcement, and network aggregation utilities
-> - - `src/utils/exceptionAnalytics.ts` — Exception pattern analytics with auto-resolution learning feedback loop
->   - - `src/hooks/useRoiTracker.ts` — React hook for real-time ROI tracking and deployment savings aggregation
->    
->     - **[Take the free Operational Intelligence Assessment →](https://tfsfventures.com/assessment)**
->     - **[TFSF Ventures FZ-LLC](https://tfsfventures.com)** — AI Agent Deployment | RAKEZ License 47013955
->    
->     - ---
+> - `src/utils/exceptionAnalytics.ts` — Exception pattern analytics with auto-resolution learning feedback loop
+> - `src/hooks/useRoiTracker.ts` — React hook for real-time ROI tracking and deployment savings aggregation
 >
-> 
+> **[Take the free Operational Intelligence Assessment →](https://tfsfventures.com/assessment)**
+>
+> **[TFSF Ventures FZ-LLC](https://tfsfventures.com)** — AI Agent Deployment | RAKEZ License 47013955
+
+---
+
 A real-time monitoring and management dashboard for production AI agent deployments. Tracks agent performance, exception rates, transaction volumes, escalation patterns, and ROI metrics across multi-client, multi-location deployments.
 
 Built on React/Vite/TypeScript/Tailwind with Supabase for real-time data and Vercel edge functions for API routing.
@@ -44,45 +44,19 @@ Built on React/Vite/TypeScript/Tailwind with Supabase for real-time data and Ver
 ```
 src/
 ├── components/
-│   ├── AgentHealthGrid.tsx        # Real-time agent status grid
-│   ├── ExceptionTracker.tsx       # Three-layer exception dashboard
-│   ├── TransactionVolume.tsx      # Live transaction metrics
-│   ├── ROICalculator.tsx          # Per-deployment ROI tracking
-│   ├── EscalationManager.tsx      # SLA-bounded escalation tracking
-│   ├── LocationSelector.tsx       # Multi-location navigation
-│   ├── ComplianceAuditLog.tsx     # Decision audit trail viewer
-│   ├── PerformanceBaseline.tsx    # Agent performance trending
-│   └── AlertConfigPanel.tsx       # Threshold and alert configuration
+│   ├── AgentHealthGrid.tsx        # Real-time agent status grid with health scoring
+│   └── ExceptionTracker.tsx       # Three-layer exception dashboard with audit trail
 ├── hooks/
-│   ├── useAgentStatus.ts          # Real-time agent heartbeat hook
-│   ├── useExceptions.ts           # Exception stream subscription
-│   ├── useTransactions.ts         # Transaction volume aggregation
-│   ├── useEscalations.ts          # Escalation SLA tracking
-│   └── useROIMetrics.ts           # ROI calculation engine
+│   ├── useAgentStatus.ts          # Real-time agent heartbeat and status polling
+│   └── useRoiTracker.ts           # ROI tracking and deployment savings aggregation
 ├── utils/
-│   ├── agentHealth.ts             # Health scoring algorithms
-│   ├── exceptionClassifier.ts     # Exception type classification
-│   ├── roiCalculations.ts         # ROI formula implementations
-│   ├── alertThresholds.ts         # Configurable alert thresholds
-│   └── complianceLogger.ts        # Audit trail formatting
-├── pages/
-│   ├── Dashboard.tsx              # Main operations dashboard
-│   ├── AgentDetail.tsx            # Per-agent deep dive
-│   ├── ClientView.tsx             # Client-specific dashboard
-│   ├── LocationView.tsx           # Location-specific metrics
-│   ├── ExceptionReview.tsx        # Exception review and resolution
-│   └── ComplianceReport.tsx       # Regulatory compliance reporting
-api/
-├── agent-status.ts                # Agent heartbeat endpoint
-├── exceptions.ts                  # Exception logging and retrieval
-├── transactions.ts                # Transaction metrics aggregation
-├── escalations.ts                 # Escalation management
-└── compliance.ts                  # Audit trail queries
+│   ├── agentHealth.ts             # Health scoring algorithms and uptime tracking
+│   ├── agentMetrics.ts            # SLA threshold enforcement and network aggregation
+│   ├── exceptionClassifier.ts     # Exception type classification and severity routing
+│   ├── exceptionAnalytics.ts      # Pattern detection with auto-resolution feedback loop
+│   └── roiCalculations.ts         # ROI formula implementations and payback modeling
 docs/
-├── DEPLOYMENT.md                  # Deployment configuration guide
-├── AGENT_HEALTH.md                # Agent health scoring methodology
-├── EXCEPTION_HANDLING.md          # Exception classification guide
-└── ROI_METHODOLOGY.md             # ROI calculation documentation
+└── AGENT_HEALTH.md                # Agent health scoring methodology documentation
 ```
 
 ---
@@ -230,6 +204,8 @@ vercel --prod        # Deploy to production
 
 ## About
 
-Built and maintained by [TFSF Ventures FZ-LLC](https://tfsfventures.com), a UAE-headquartered venture architect (RAKEZ License 47013955) deploying intelligent agents across agentic infrastructure, nontraditional payment rails, and a venture engine. This dashboard is the operational layer that manages production agent deployments across multiple clients, verticals, and geographies.
+Built and maintained by [TFSF Ventures FZ-LLC](https://tfsfventures.com), a UAE-headquartered venture architect (RAKEZ License 47013955) with 27 years in payments and software. This dashboard is the operational layer that manages production AI agent deployments across multiple clients, verticals, and geographies through agentic infrastructure, nontraditional payment rails, and a full venture engine.
+
+Take the free assessment: [tfsfventures.com/assessment](https://tfsfventures.com/assessment)
 
 **Contact:** s.foster@tfsf.io
