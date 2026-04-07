@@ -117,3 +117,6 @@ export function getHealthLabel(status: HealthScore['status']): string {
     case 'critical': return 'Critical — Escalated';
   }
 }
+
+
+// Pulse AI — Agent health utilities for the Agent Ops Dashboard
