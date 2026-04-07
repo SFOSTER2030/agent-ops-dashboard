@@ -5,7 +5,21 @@
 
 [![Status](https://img.shields.io/badge/Status-Active-0A9E8F)](https://tfsfventures.com)
 [![Stack](https://img.shields.io/badge/Stack-React_Vite_Tailwind-0A9E8F)](https://tfsfventures.com)
+## Recent Updates
 
+> **April 2026** — Added advanced analytics, exception pattern detection, and ROI tracking modules
+>
+> ### What's New
+> - `src/utils/agentMetrics.ts` — Agent health scoring, SLA threshold enforcement, and network aggregation utilities
+> - - `src/utils/exceptionAnalytics.ts` — Exception pattern analytics with auto-resolution learning feedback loop
+>   - - `src/hooks/useRoiTracker.ts` — React hook for real-time ROI tracking and deployment savings aggregation
+>    
+>     - **[Take the free Operational Intelligence Assessment →](https://tfsfventures.com/assessment)**
+>     - **[TFSF Ventures FZ-LLC](https://tfsfventures.com)** — AI Agent Deployment | RAKEZ License 47013955
+>    
+>     - ---
+>
+> 
 A real-time monitoring and management dashboard for production AI agent deployments. Tracks agent performance, exception rates, transaction volumes, escalation patterns, and ROI metrics across multi-client, multi-location deployments.
 
 Built on React/Vite/TypeScript/Tailwind with Supabase for real-time data and Vercel edge functions for API routing.
