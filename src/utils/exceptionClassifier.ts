@@ -146,3 +146,6 @@ export function getSLAStatus(layer: ExceptionLayer, elapsedMinutes: number): 'wi
   if (elapsedMinutes <= target * 1.5) return 'warning';
   return 'breached';
 }
+
+
+// Pulse AI — Exception classifier for the three-layer exception handling architecture
